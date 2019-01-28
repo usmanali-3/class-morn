@@ -1,0 +1,160 @@
+.navigation{
+    background-color: #1E1E0A;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+    & .logo{
+        background-color: #ffff;
+        color: black;
+        text-align: center;
+        height: 20vh;
+        & a{
+            color: black;
+            font-size: 32px;
+            font-weight: 600;
+            position: absolute;
+            top: 20%;
+            left: 20%;
+            &:hover{
+                text-decoration: none;
+                cursor: pointer;
+            }
+        }
+    }
+
+    & .shopping-cart-widget{
+        position: relative;
+        height: 6vh;
+        border-bottom: 0.0015rem solid #8E8E8E;
+
+
+        & a{
+            position: absolute;
+            letter-spacing: 0.4vh;
+            left: 2vh;   
+            bottom: 1.6vh;
+            font-size: 14px;
+            color: #8E8E8E;
+
+            & span span{
+                color: #F17407;
+            }
+
+            &:hover{
+                text-decoration: none;
+                cursor: pointer;
+            }
+        }
+
+    }
+
+    & .input-search{
+        position: relative;
+        width: 100%;
+        height: 7vh;
+        border-bottom: 0.0015rem solid #8E8E8E;
+
+        & input{
+            border: none;
+            background-color: transparent;
+            height: 100%;
+            width: 80%;
+        }
+
+        & button{
+            position: absolute;
+            width: 20%;
+            height: 100%;
+            right: 0;
+            border: none;
+            background-color: transparent;
+
+            &:hover{
+                cursor: pointer;
+            }
+        }
+
+        & .fa-search{
+               position: absolute;
+               width: 50%;
+               height: 50%;
+               top: 1.8vh;
+               left: 2vh; 
+               text-align: center;
+               background-color: transparent;
+               font-size: 20px; 
+               color: #8E8E8E;
+        }
+    }
+
+    & .navs{
+        position: absolute;
+        height: 50vh;
+        width: 100%;
+        bottom: -50vh;
+
+        & ul{
+            list-style: none;
+
+            & select{
+                position: relative;
+                width: 100%;
+                height: 6vh;
+                left: 0;
+                padding: 0 10px 0 10px;
+                border: none;
+                background-color: transparent;
+                color: #8E8E8E;
+                font-size: 12px;
+                border-bottom: 0.0015rem solid #8E8E8E;
+                text-align: center;
+    
+                &:hover{
+                    cursor: pointer;
+                }
+                & option{
+                    text-align: center;
+                }
+            }
+        }
+        & ul li{
+            list-style: none;
+            display: block;
+            height: 6vh;
+            padding: 5px 10px 0 13px;
+        }
+
+        & ul li a{
+            text-decoration: none;
+            font-size: 12px;
+            color: #8E8E8E;
+            
+            &:hover{
+                color: #F17407; 
+            }
+        }
+    }
+
+    & ol{
+        list-style: none;
+        position: absolute;
+        top: 49vh;
+        left: 13px;
+        
+
+        & li{
+            padding: 2px 2px 6px 2px;
+        }
+
+        & li a{
+            font-size: 12px;
+            color: #F17407;
+
+            &:hover{
+                color: #BA350A;
+            }
+        }
+        
+    }
+}

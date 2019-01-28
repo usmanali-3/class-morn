@@ -1,0 +1,45 @@
+{
+  "col": [
+    {
+      "@classname": "features",
+      "@sm": "4",
+      "@md": "4"
+    },
+    {
+      "@classname": "features",
+      "@sm": "4",
+      "@md": "4"
+    },
+    {
+      "@classname": "features",
+      "@sm": "4",
+      "@md": "4"
+    }
+  ],
+  "a": [
+    {
+      "@href": "#",
+      "img": {
+        "@classname": "img-responsive",
+        "@src": "./images/1.jpg"
+      },
+      "#text": "Bags"
+    },
+    {
+      "@href": "#",
+      "img": {
+        "@classname": "img-responsive",
+        "@src": "./images/2.jpg"
+      },
+      "#text": "Bikes"
+    },
+    {
+      "@href": "#",
+      "img": {
+        "@classname": "img-responsive",
+        "@src": "./images/3.jpg"
+      },
+      "#text": "Sale"
+    }
+  ]
+}
